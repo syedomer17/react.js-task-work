@@ -25,6 +25,7 @@ import Placeholder from "react-bootstrap/Placeholder";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import Spinner from "react-bootstrap/Spinner";
 import Table from "react-bootstrap/Table";
+import Stack from "react-bootstrap/Stack";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -305,6 +306,31 @@ function App() {
            </tbody>
          </Table>
        </div>
+       <br></br>
+       <div></div>
+       <br></br>
+       <Container>
+         <Row>
+           <Col xs={12} sm={6} md={4} lg={3}>
+             Column 1
+           </Col>
+           <Col xs={12} sm={6} md={4} lg={3}>
+             Column 2
+           </Col>
+           <Col xs={12} sm={6} md={4} lg={3}>
+             Column 3
+           </Col>
+           <Col xs={12} sm={6} md={4} lg={3}>
+             Column 4
+           </Col>
+         </Row>
+       </Container>
+       <br></br>
+       <Container>
+         <Row>
+           <Col>1 of 1</Col>
+         </Row>
+       </Container>
      </>
    );
 }
