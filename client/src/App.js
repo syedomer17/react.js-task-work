@@ -8,6 +8,10 @@ import Card from "react-bootstrap/Card";
 // import Carousel from "react-bootstrap/Carousel";
 // import ExampleCarouselImage from "components/ExampleCarouselImage";
 import Dropdown from "react-bootstrap/Dropdown";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
+import Row from "react-bootstrap/Row";
 
 function App() {
   return (
@@ -125,6 +129,22 @@ function App() {
             <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
+      </div>
+      <br></br>
+      <div>
+        <Container>
+          <Row>
+            <Col xs={6} md={4}>
+              <Image src="holder.js/171x180" rounded />
+            </Col>
+            <Col xs={6} md={4}>
+              <Image src="holder.js/171x180" roundedCircle />
+            </Col>
+            <Col xs={6} md={4}>
+              <Image src="holder.js/171x180" thumbnail />
+            </Col>
+          </Row>
+        </Container>
       </div>
     </>
   );
