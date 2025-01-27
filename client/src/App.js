@@ -2,6 +2,7 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Accordion from "react-bootstrap/Accordion";
 import Alert from "react-bootstrap/Alert";
+import Button from "react-bootstrap/Button";
 
 function App() {
   return (
@@ -52,6 +53,17 @@ function App() {
             if you like.
           </Alert>
         ))}
+      </div>
+      <br></br>
+      <div>
+        <Button variant="outline-primary">Primary</Button>
+        <Button variant="outline-secondary">Secondary</Button>
+        <Button variant="outline-success">Success</Button>
+        <Button variant="outline-warning">Warning</Button>
+        <Button variant="outline-danger">Danger</Button>
+        <Button variant="outline-info">Info</Button>
+        <Button variant="outline-light">Light</Button>
+        <Button variant="outline-dark">Dark</Button>
       </div>
     </>
   );
