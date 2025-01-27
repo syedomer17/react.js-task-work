@@ -388,6 +388,15 @@ function App() {
            numbers, and must not contain spaces, special characters, or emoji.
          </Form.Text>
        </div>
+       <br></br>
+       <div>
+         <Form.Select aria-label="Default select example">
+           <option>Open this select menu</option>
+           <option value="1">One</option>
+           <option value="2">Two</option>
+           <option value="3">Three</option>
+         </Form.Select>
+       </div>
      </>
    );
 }
