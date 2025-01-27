@@ -13,6 +13,7 @@ import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import ListGroup from "react-bootstrap/ListGroup";
+import Modal from "react-bootstrap/Modal";
 
 function App() {
   return (
@@ -156,6 +157,25 @@ function App() {
           <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
           <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
         </ListGroup>
+      </div>
+      <br></br>
+      <div>
+        {/* { className="modal show" style={{ display: "block", position: "initial" }}
+        >
+        <Modal.Dialog>
+          <Modal.Header closeButton>
+            <Modal.Title>Modal title</Modal.Title>
+          </Modal.Header>
+
+          <Modal.Body>
+            <p>Modal body text goes here.</p>
+          </Modal.Body>
+
+          <Modal.Footer>
+            <Button variant="secondary">Close</Button>
+            <Button variant="primary">Save changes</Button>
+          </Modal.Footer>
+        </Modal.Dialog> } */}
       </div>
     </>
   );
